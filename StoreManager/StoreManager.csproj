@@ -196,25 +196,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201811121158029_InitialModel.cs" />
-    <Compile Include="Migrations\201811121158029_InitialModel.Designer.cs">
-      <DependentUpon>201811121158029_InitialModel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201811131054271_ProductTable.cs" />
-    <Compile Include="Migrations\201811131054271_ProductTable.Designer.cs">
-      <DependentUpon>201811131054271_ProductTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201811131106074_SalesTable.cs" />
-    <Compile Include="Migrations\201811131106074_SalesTable.Designer.cs">
-      <DependentUpon>201811131106074_SalesTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201811131127212_SaleDetailsTable.cs" />
-    <Compile Include="Migrations\201811131127212_SaleDetailsTable.Designer.cs">
-      <DependentUpon>201811131127212_SaleDetailsTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201811191116566_UserIdRemoved.cs" />
-    <Compile Include="Migrations\201811191116566_UserIdRemoved.Designer.cs">
-      <DependentUpon>201811191116566_UserIdRemoved.cs</DependentUpon>
+    <Compile Include="Migrations\201811261051315_InitialModel.cs" />
+    <Compile Include="Migrations\201811261051315_InitialModel.Designer.cs">
+      <DependentUpon>201811261051315_InitialModel.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -225,6 +209,7 @@
     <Compile Include="Models\SaleDetail.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\ProductSaleViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -287,6 +272,7 @@
     <Content Include="Views\Product\Create.cshtml" />
     <Content Include="Views\Product\Edit.cshtml" />
     <Content Include="Views\Product\Details.cshtml" />
+    <Content Include="Views\Product\Buy.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -305,20 +291,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201811121158029_InitialModel.resx">
-      <DependentUpon>201811121158029_InitialModel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201811131054271_ProductTable.resx">
-      <DependentUpon>201811131054271_ProductTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201811131106074_SalesTable.resx">
-      <DependentUpon>201811131106074_SalesTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201811131127212_SaleDetailsTable.resx">
-      <DependentUpon>201811131127212_SaleDetailsTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201811191116566_UserIdRemoved.resx">
-      <DependentUpon>201811191116566_UserIdRemoved.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201811261051315_InitialModel.resx">
+      <DependentUpon>201811261051315_InitialModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

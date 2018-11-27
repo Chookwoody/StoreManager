@@ -119,7 +119,3 @@ C:\Users\CHUKWUDI ALEXANDER\source\repos\StoreManager\StoreManager\obj\Debug\Sto
 C:\Users\CHUKWUDI ALEXANDER\source\repos\StoreManager\StoreManager\obj\Debug\StoreManager.pdb
 C:\Users\CHUKWUDI ALEXANDER\source\repos\StoreManager\StoreManager\obj\Debug\StoreManager.Migrations.InitialModel.resources
 C:\Users\CHUKWUDI ALEXANDER\source\repos\StoreManager\StoreManager\obj\Debug\StoreManager.csproj.GenerateResource.Cache
-C:\Users\CHUKWUDI ALEXANDER\source\repos\StoreManager\StoreManager\obj\Debug\StoreManager.Migrations.ProductTable.resources
-C:\Users\CHUKWUDI ALEXANDER\source\repos\StoreManager\StoreManager\obj\Debug\StoreManager.Migrations.SalesTable.resources
-C:\Users\CHUKWUDI ALEXANDER\source\repos\StoreManager\StoreManager\obj\Debug\StoreManager.Migrations.SaleDetailsTable.resources
-C:\Users\CHUKWUDI ALEXANDER\source\repos\StoreManager\StoreManager\obj\Debug\StoreManager.Migrations.UserIdRemoved.resources
